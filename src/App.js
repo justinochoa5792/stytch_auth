@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Link to="/signup">Sign Up</Link>
-      <Link to="/login">Log In</Link>
+      <Link to="/auth">Log In</Link>
       <StytchProvider stytch={stytchClient}>
         <Routes>
           <Route path="/signup" element={<Signup />} />
